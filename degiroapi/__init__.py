@@ -6,7 +6,7 @@ from degiroapi.intervaltypes import Interval
 
 
 class DeGiro:
-    __LOGIN_URL = 'https://trader.degiro.nl/login/secure/login'
+    __LOGIN_URL = 'https://trader.degiro.nl/login/#/login'
     __CONFIG_URL = 'https://trader.degiro.nl/login/secure/config'
 
     __LOGOUT_URL = 'https://trader.degiro.nl/trading/secure/logout'
@@ -14,7 +14,7 @@ class DeGiro:
     __CLIENT_INFO_URL = 'https://trader.degiro.nl/pa/secure/client'
 
     __GET_STOCKS_URL = 'https://trader.degiro.nl/products_s/secure/v5/stocks'
-    __PRODUCT_SEARCH_URL = 'https://trader.degiro.nl/product_search/secure/v5/products/lookup'
+    __PRODUCT_SEARCH_URL = 'https://trader.degiro.nl/trader/#/products'
     __PRODUCT_INFO_URL = 'https://trader.degiro.nl/product_search/secure/v5/products/info'
     __TRANSACTIONS_URL = 'https://trader.degiro.nl/reporting/secure/v4/transactions'
     __ORDERS_URL = 'https://trader.degiro.nl/reporting/secure/v4/order-history'
